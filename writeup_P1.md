@@ -40,12 +40,12 @@ The goal of this project is to find road lane lines on the road.
 [image40000]: ./examples/hough_solidYellowLeft.jpg "Solid Yellow Left Hough Lines"
 [image50000]: ./examples/hough_whiteCarLaneSwitch.jpg "White Car Lane Switch Hough Lines"
 [image60000]: ./examples/hough_solidYellowCurve.jpg "Solid Yellow Curve Hough Lines"
-[image100000]: ./test_images_output/image_solidWhiteRight.jpg "Solid White Right with Solid Lane Lines"
-[image200000]: ./test_images_output/image_solidWhiteCurve.jpg "Solid White Curve with Solid Lane Lines"
-[image300000]: ./test_images_output/image_solidYellowCurve2.jpg "Solid Yellow Curve 2 with Solid Lane Lines"
-[image400000]: ./test_images_output/image_solidYellowLeft.jpg "Solid Yellow Left with Solid Lane Lines"
-[image500000]: ./test_images_output/image_whiteCarLaneSwitch.jpg "White Car Lane Switch with Solid Lane Lines"
-[image600000]: ./test_images_output/image_solidYellowCurve.jpg "Solid Yellow Curve with Solid Lane Lines"
+[image100000]: ./test_images_output/solidWhiteRight.jpg "Solid White Right with Solid Lane Lines"
+[image200000]: ./test_images_output/solidWhiteCurve.jpg "Solid White Curve with Solid Lane Lines"
+[image300000]: ./test_images_output/solidYellowCurve2.jpg "Solid Yellow Curve 2 with Solid Lane Lines"
+[image400000]: ./test_images_output/solidYellowLeft.jpg "Solid Yellow Left with Solid Lane Lines"
+[image500000]: ./test_images_output/whiteCarLaneSwitch.jpg "White Car Lane Switch with Solid Lane Lines"
+[image600000]: ./test_images_output/solidYellowCurve.jpg "Solid Yellow Curve with Solid Lane Lines"
 
 ### Reflection
 
@@ -53,18 +53,12 @@ The goal of this project is to find road lane lines on the road.
 
 My pipeline steps are implemented like, first I generated a folder that contains the output images. I generated it by using ‘try, catch’ commands to avoid the error when there was already generated. Then, I converted images in test_images folder to gray scale like below. 
 
-![alt text][image1] 
-![alt text][image10] 
-![alt text][image2] 
-![alt text][image20] 
-![alt text][image3] 
-![alt text][image30] 
-![alt text][image4] 
-![alt text][image40] 
-![alt text][image5] 
-![alt text][image50] 
-![alt text][image6] 
-![alt text][image60] 
+![alt text][image1] ![alt text][image10] 
+![alt text][image2] ![alt text][image20] 
+![alt text][image3] ![alt text][image30] 
+![alt text][image4] ![alt text][image40] 
+![alt text][image5] ![alt text][image50] 
+![alt text][image6] ![alt text][image60] 
 
 After that, I used to gray images to convert blurred images by using Gaussian blur method as they can be seen in below.
 
