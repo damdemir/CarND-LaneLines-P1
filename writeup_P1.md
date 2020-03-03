@@ -59,12 +59,18 @@ The goal of this project is to find road lane lines on the road.
 
 My pipeline steps are implemented like, first I generated a folder that contains the output images. I generated it by using ‘try, catch’ commands to avoid the error when there was already generated. Then, I converted images in test_images folder to gray scale like below. 
 
-![alt text][image1] ![alt text][image10] 
-![alt text][image2] ![alt text][image20] 
-![alt text][image3] ![alt text][image30] 
-![alt text][image4] ![alt text][image40] 
-![alt text][image5] ![alt text][image50] 
-![alt text][image6] ![alt text][image60] 
+![alt text][image1] 
+![alt text][image10] 
+![alt text][image2] 
+![alt text][image20] 
+![alt text][image3] 
+![alt text][image30] 
+![alt text][image4] 
+![alt text][image40] 
+![alt text][image5] 
+![alt text][image50] 
+![alt text][image6] 
+![alt text][image60] 
 
 After that, I used to gray images to convert blurred images by using Gaussian blur method as they can be seen in below.
 
