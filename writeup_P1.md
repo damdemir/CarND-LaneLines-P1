@@ -10,7 +10,7 @@ The goal of this project is to find road lane lines on the road.
 * Lines should be converted into solid lines.
 
 [//]: # (Image References)
-[image1]: ./test_images/solidWhiteRight.jpg "Solid White Right"
+[image1]: ./test_images/solidWhiteRight.jpg "Solid White Right height="42" width="42""
 [image2]: ./test_images/solidWhiteCurve.jpg "Solid White Curve"
 [image3]: ./test_images/solidYellowCurve2.jpg "Solid Yellow Curve 2"
 [image4]: ./test_images/solidYellowLeft.jpg "Solid Yellow Left"
@@ -60,16 +60,7 @@ My pipeline steps are implemented like, first I generated a folder that contains
 ![alt text][image5] ![alt text][image50] 
 ![alt text][image6] ![alt text][image60] 
 
-After that, I used to gray images to convert blurred images by using Gaussian blur method as they can be seen in below.
-
-![alt text][image100]
-![alt text][image200]
-![alt text][image300]
-![alt text][image400]
-![alt text][image500]
-![alt text][image600]
-
-By using blurred images, I used Canny Edge detector to detect edges like below images. 
+After that, I used to gray images to convert blurred images by using Gaussian blur method. By using blurred images, I used Canny Edge detector to detect edges like below images. 
 
 ![alt text][image1000]
 ![alt text][image2000]
