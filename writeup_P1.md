@@ -14,36 +14,30 @@ The goal of this project is to find road lane lines on the road.
 [image4]: ./test_images/solidYellowLeft.jpg "Solid Yellow Left"
 [image5]: ./test_images/whiteCarLaneSwitch.jpg "White Car Lane Switch"
 [image6]: ./test_images/solidYellowCurve.jpg "Solid Yellow Curve"
-
 [image10]: ./examples/gray_solidWhiteRight.jpg "Solid White Right in Gray Scale"
 [image20]: ./examples/gray_solidWhiteCurve.jpg "Solid White Curve in Gray Scale"
 [image30]: ./examples/gray_solidYellowCurve2.jpg "Solid Yellow Curve 2 in Gray Scale"
 [image40]: ./examples/gray_solidYellowLeft.jpg "Solid Yellow Leftin Gray Scale"
 [image50]: ./examples/gray_whiteCarLaneSwitch.jpg "White Car Lane Switch in Gray Scale"
 [image60]: ./examples/gray_solidYellowCurve.jpg "Solid Yellow Curve in Gray Scale"
-
-
 [image100]: ./examples/blur_solidWhiteRight.jpg "Blurred Solid Right Curve"
 [image200]: ./examples/blur_solidWhiteCurve.jpg "Blurred Solid White Curve"
 [image300]: ./examples/blur_solidYellowCurve2.jpg "Blurred Solid Yellow Curve 2"
 [image400]: ./examples/blur_solidYellowLeft.jpg "Blurred Solid Yellow Left"
 [image500]: ./examples/blur_whiteCarLaneSwitch.jpg "Blurred White Car Lane Switch"
 [image600]: ./examples/blur_solidYellowCurve.jpg "Blurred Solid Yellow Curve"
-
 [image1000]: ./examples/canny_solidWhiteRight.jpg "Edges Detected - Solid White Right"
 [image2000]: ./examples/canny_solidWhiteCurve.jpg "Edges Detected - Solid White Curve"
 [image3000]: ./examples/canny_solidYellowCurve2.jpg "Edges Detected - Solid Yellow Curve 2"
 [image4000]: ./examples/canny_solidYellowLeft.jpg "Edges Detected - Solid White Curve"
 [image5000]: ./examples/canny_whiteCarLaneSwitch.jpg "Edges Detected - White Car Lane Switch"
 [image6000]: ./examples/canny_solidYellowCurve.jpg "Edges Detected - Solid Yellow Curve"
-
 [image10000]: ./examples/hough_solidWhiteRight.jpg "Solid White Right Hough Lines"
 [image20000]: ./examples/hough_solidWhiteCurve.jpg "Solid White Curve Hough Lines"
 [image30000]: ./examples/hough_solidYellowCurve2.jpg "Solid Yellow Curve 2 Hough Lines"
 [image40000]: ./examples/hough_solidYellowLeft.jpg "Solid Yellow Left Hough Lines"
 [image50000]: ./examples/hough_whiteCarLaneSwitch.jpg "White Car Lane Switch Hough Lines"
 [image60000]: ./examples/hough_solidYellowCurve.jpg "Solid Yellow Curve Hough Lines"
-
 [image100000]: ./test_images_output/image_solidWhiteRight.jpg "Solid White Right with Solid Lane Lines"
 [image200000]: ./test_images_output/image_solidWhiteCurve.jpg "Solid White Curve with Solid Lane Lines"
 [image300000]: ./test_images_output/image_solidYellowCurve2.jpg "Solid Yellow Curve 2 with Solid Lane Lines"
