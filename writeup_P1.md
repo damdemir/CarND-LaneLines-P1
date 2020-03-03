@@ -10,7 +10,7 @@ The goal of this project is to find road lane lines on the road.
 * Lines should be converted into solid lines.
 
 [//]: # (Image References)
-[image1]: ./test_images/solidWhiteRight.jpg "Solid White Right"
+[image1]:  ./test_images/solidWhiteRight.jpg "Solid White Right"
 [image2]: ./test_images/solidWhiteCurve.jpg "Solid White Curve"
 [image3]: ./test_images/solidYellowCurve2.jpg "Solid Yellow Curve 2"
 [image4]: ./test_images/solidYellowLeft.jpg "Solid Yellow Left"
@@ -55,29 +55,16 @@ My pipeline steps are implemented like, first I generated a folder that contains
 
 ![alt text][image1] ![alt text][image10] 
 ![alt text][image2] ![alt text][image20] 
-![alt text][image3] ![alt text][image30] 
-![alt text][image4] ![alt text][image40] 
-![alt text][image5] ![alt text][image50] 
-![alt text][image6] ![alt text][image60] 
 
 After that, I used to gray images to convert blurred images by using Gaussian blur method. By using blurred images, I used Canny Edge detector to detect edges like below images. 
 
 ![alt text][image1000]
 ![alt text][image2000]
-![alt text][image3000]
-![alt text][image4000]
-![alt text][image5000]
-![alt text][image6000]
 
 After edge detection process I selected the section that defines region of interest which avoids to handle unnecessary lines. Then, By using hough transform I found the hough lines and draw them on the images as they can be seen below. 
 
 ![alt text][image10000]
 ![alt text][image20000]
-![alt text][image30000]
-![alt text][image40000]
-![alt text][image50000]
-![alt text][image60000]
-
 
 In the second part, it is asked to be more advanced the improvement of draw lines() is needed. Therefore, lane lines would look like a whole line. To make this improvement; first I seperated right and left lanes according to line slopes. Then, I saturated all slopes and intercepts values for each lane and collected them in arrays. By using arrays, I found the average slope and intercept for right and left lane. According to average slope and intercept lane lines were fitted via line mathematical formula. 
 
@@ -85,10 +72,6 @@ As a result, the outcomes of images looks like below.
 
 ![alt text][image100000]
 ![alt text][image200000]
-![alt text][image300000]
-![alt text][image400000]
-![alt text][image500000]
-![alt text][image600000]
 
 
 ### 2.  Potential Shortcomings with your current pipeline
