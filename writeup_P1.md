@@ -54,24 +54,24 @@ The goal of this project is to find road lane lines on the road.
 My pipeline steps are implemented like, first I generated a folder that contains the output images. I generated it by using ‘try, catch’ commands to avoid the error when there was already generated. Then, I converted images in test_images folder to gray scale like below. 
 
 ![alt text][image1] ![alt text][image10] 
-![alt text][image2] ![alt text][image20] 
+![alt text][image4] ![alt text][image40] 
 
 After that, I used to gray images to convert blurred images by using Gaussian blur method. By using blurred images, I used Canny Edge detector to detect edges like below images. 
 
 ![alt text][image1000]
-![alt text][image2000]
+![alt text][image4000]
 
 After edge detection process I selected the section that defines region of interest which avoids to handle unnecessary lines. Then, By using hough transform I found the hough lines and draw them on the images as they can be seen below. 
 
 ![alt text][image10000]
-![alt text][image20000]
+![alt text][image40000]
 
 In the second part, it is asked to be more advanced the improvement of draw lines() is needed. Therefore, lane lines would look like a whole line. To make this improvement; first I seperated right and left lanes according to line slopes. Then, I saturated all slopes and intercepts values for each lane and collected them in arrays. By using arrays, I found the average slope and intercept for right and left lane. According to average slope and intercept lane lines were fitted via line mathematical formula. 
 
 As a result, the outcomes of images looks like below.
 
 ![alt text][image100000]
-![alt text][image200000]
+![alt text][image400000]
 
 
 ### 2.  Potential Shortcomings with your current pipeline
