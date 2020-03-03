@@ -6,6 +6,8 @@
 **Finding Lane Lines on the Road**
 
 The goal of this project is to find road lane lines on the road. 
+* Lines should be detected in the given images.
+* Lines should be converted into solid lines.
 
 [//]: # (Image References)
 [image1]: ./test_images/solidWhiteRight.jpg "Solid White Right"
