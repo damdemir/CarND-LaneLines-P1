@@ -8,7 +8,6 @@
 The goal of this project is to find road lane lines on the road. 
 
 [//]: # (Image References)
-
 [image1]: ./test_images/solidWhiteRight.jpg "Solid White Right"
 [image2]: ./test_images/solidWhiteCurve.jpg "Solid White Curve"
 [image3]: ./test_images/solidYellowCurve2.jpg "Solid Yellow Curve 2"
