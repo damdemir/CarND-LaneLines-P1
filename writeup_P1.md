@@ -9,12 +9,12 @@ The goal of this project is to find road lane lines on the road.
 
 [//]: # (Image References)
 
-[image1]: ./examples/image_solidWhiteRight.jpg "Solid White Right"
-[image2]: ./examples/image_solidWhiteCurve.jpg "Solid White Curve"
-[image3]: ./examples/image_solidYellowCurve2.jpg "Solid Yellow Curve 2"
-[image4]: ./examples/image_solidYellowLeft.jpg "Solid Yellow Left"
-[image5]: ./examples/image_whiteCarLaneSwitch.jpg "White Car Lane Switch"
-[image6]: ./examples/image_solidYellowCurve.jpg "Solid Yellow Curve"
+[image1]: ./test_images/solidWhiteRight.jpg "Solid White Right"
+[image2]: ./test_images/solidWhiteCurve.jpg "Solid White Curve"
+[image3]: ./test_images/solidYellowCurve2.jpg "Solid Yellow Curve 2"
+[image4]: ./test_images/solidYellowLeft.jpg "Solid Yellow Left"
+[image5]: ./test_images/whiteCarLaneSwitch.jpg "White Car Lane Switch"
+[image6]: ./test_images/solidYellowCurve.jpg "Solid Yellow Curve"
 
 [image10]: ./examples/gray_solidWhiteRight.jpg "Solid White Right in Gray Scale"
 [image20]: ./examples/gray_solidWhiteCurve.jpg "Solid White Curve in Gray Scale"
