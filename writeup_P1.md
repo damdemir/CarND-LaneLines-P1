@@ -46,7 +46,6 @@ The goal of this project is to find road lane lines on the road.
 [image400000]: ./test_images_output/image_solidYellowLeft.jpg "Solid Yellow Left with Solid Lane Lines"
 [image500000]: ./test_images_output/image_whiteCarLaneSwitch.jpg "White Car Lane Switch with Solid Lane Lines"
 [image600000]: ./test_images_output/image_solidYellowCurve.jpg "Solid Yellow Curve with Solid Lane Lines"
----
 
 ### Reflection
 
